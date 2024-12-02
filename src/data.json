@@ -5,8 +5,16 @@
       "id": 1,
       "height": 0.7,
       "weight": 6.9,
-      "types": ["grass", "poison"],
-      "weeknesses": ["fire", "psychic", "flying", "ice"],
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weeknesses": [
+        "fire",
+        "psychic",
+        "flying",
+        "ice"
+      ],
       "category": "seed"
     },
     {
@@ -14,8 +22,16 @@
       "id": 2,
       "height": 1,
       "weight": 13,
-      "types": ["grass", "poison"],
-      "weeknesses": ["fire", "psychic", "flying", "ice"],
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weeknesses": [
+        "fire",
+        "psychic",
+        "flying",
+        "ice"
+      ],
       "category": "seed"
     },
     {
@@ -23,8 +39,16 @@
       "id": 3,
       "height": 2,
       "weight": 100,
-      "types": ["grass", "poison"],
-      "weeknesses": ["fire", "psychic", "flying", "ice"],
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "weeknesses": [
+        "fire",
+        "psychic",
+        "flying",
+        "ice"
+      ],
       "category": "seed"
     },
     {
@@ -32,8 +56,14 @@
       "id": 4,
       "height": 0.6,
       "weight": 8.5,
-      "types": ["fire"],
-      "weeknesses": ["water", "ground", "rock"],
+      "types": [
+        "fire"
+      ],
+      "weeknesses": [
+        "water",
+        "ground",
+        "rock"
+      ],
       "category": "lizard"
     },
     {
@@ -41,8 +71,14 @@
       "id": 5,
       "height": 1.1,
       "weight": 19,
-      "types": ["fire"],
-      "weeknesses": ["water", "ground", "rock"],
+      "types": [
+        "fire"
+      ],
+      "weeknesses": [
+        "water",
+        "ground",
+        "rock"
+      ],
       "category": "flame"
     },
     {
@@ -50,8 +86,15 @@
       "id": 6,
       "height": 1.7,
       "weight": 90.5,
-      "types": ["fire", "flying"],
-      "weeknesses": ["water", "electric", "rock"],
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "weeknesses": [
+        "water",
+        "electric",
+        "rock"
+      ],
       "category": "flame"
     },
     {
@@ -59,8 +102,13 @@
       "id": 7,
       "height": 0.5,
       "weight": 9,
-      "types": ["water"],
-      "weeknesses": ["grass", "electric"],
+      "types": [
+        "water"
+      ],
+      "weeknesses": [
+        "grass",
+        "electric"
+      ],
       "category": "tiny turtle"
     },
     {
@@ -68,8 +116,13 @@
       "id": 8,
       "height": 1,
       "weight": 22.5,
-      "types": ["water"],
-      "weeknesses": ["grass", "electric"],
+      "types": [
+        "water"
+      ],
+      "weeknesses": [
+        "grass",
+        "electric"
+      ],
       "category": "turtle"
     }
   ]

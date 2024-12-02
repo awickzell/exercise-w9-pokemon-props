@@ -11,10 +11,32 @@ https://reactjs.org/docs/lists-and-keys.html
 Feel free to create more components, such as header/footer,
 or why not include some more data from the array? */
 
+import { useState, useEffect } from 'react';
+import data from './data.json';
+
 export const App = () => {
+  const [pokemons, setPokemons] = useState([]);
+
+  useEffect(() => {
+    setPokemons(data.pokemons);
+  }, []);
+
   return (
     <div className="App">
-      <p>Pokemon goes here</p>
+      <h1>Pokemon List</h1>
+      <ul>
+        {pokemons.map((pokemon) => (
+          <li key={pokemon.id}>
+            <h2>{pokemon.name}</h2>
+            <p>Id: {pokemon.id}</p>
+            <p>Height: {pokemon.height} m</p>
+            <p>Weight: {pokemon.weight} kg</p>
+            <p>Type: {pokemon.types.join(', ')}</p>
+            <p>Weaknesses: {pokemon.weeknesses.join(', ')}</p>
+            <p>Category: {pokemon.category}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
